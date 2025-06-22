@@ -14,3 +14,8 @@ git branch -a查看所有分支
 git push提价到默认的main分支
 git push origin main:Xyq-Pytorch-NSL-KDD
 git push -f origin main:Xyq-Pytorch-NSL-KDD强制修改
+
+
+理论上来说是下面这句
+git push <远程仓库名> <本地分支名>:<远程分支名>
+git push pytorch-NSL-KDD main:Xyq-Pytorch-NSL-KDD
