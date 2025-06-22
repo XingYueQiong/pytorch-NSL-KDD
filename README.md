@@ -3,3 +3,14 @@
 
 #最新更新
 尝试了一下git branch，发现本地分支是默认main，我就直接git add把所有文件添加然后git push了，在这个main分支应该也可以下载使用了
+
+小小总结一下git提交流程
+git status查看修改
+git add添加修改
+git commit -m "test"
+
+git branch查看分支
+git branch -a查看所有分支
+git push提价到默认的main分支
+git push origin main:Xyq-Pytorch-NSL-KDD
+git push -f origin main:Xyq-Pytorch-NSL-KDD强制修改
