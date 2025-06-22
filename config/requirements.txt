@@ -1,0 +1,2 @@
+#pip install pandas numpy torch torchvision scikit-learn matplotlib seaborn flask joblib tqdm pyyaml
+#-i https://pypi.tuna.tsinghua.edu.cn/simple
