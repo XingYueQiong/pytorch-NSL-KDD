@@ -19,3 +19,5 @@ git push -f origin main:Xyq-Pytorch-NSL-KDD强制修改
 理论上来说是下面这句
 git push <远程仓库名> <本地分支名>:<远程分支名>
 git push pytorch-NSL-KDD main:Xyq-Pytorch-NSL-KDD
+但是使用git remote -v查看发现，远程仓库名是origin，而pytorch-NSL-KDD只是路径
+但可以修改名字：git remote rename <旧名称> <新名称>
